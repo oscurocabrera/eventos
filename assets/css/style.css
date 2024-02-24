@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>EVENTOS VILLAREAL</title>
+  <!-- styles -->
+  <>
+    body {
+      background-color: #00CED1; 
+      color: #6a6a6a; 
+    }
+  
+
+    header {
+      text-align: center;
+    }
+
+    #navigation {
+      background-color: red; 
+    
+    }
+
+    #navigation ul.navbar-nav {
+      margin: 0;
+    }
+    .nav.navbar-nav.navbar-right li a {
+      color: rgb(255, 255, 255);
+    }
+
+
+    #navigation ul.navbar-nav li {
+      display: inline-block;
+      margin-right: 2px;
+    }
+
+    section {
+      text-align: center;
+      padding: 100px 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color:rgb(253, 253, 253); 
+    }
+    
+
+    section.gray {
+      background-color: black; 
+    }
+
+    .social-media{
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .social-media-icon{
+      display: inline-block;
+      margin: 20px;
+      width: 60px;
+      height: 60px;
+      border: 1px solid #fff;
+      border-radius: 40%;
+      text-align: center;
+      color: #fff;
+    }
+
+    .social-media-icon:hover{
+      background: #fff;
+      color: #2f1b71;
+    }
+
+    .social-media-icon i{
+      font-size: 30px;
+      line-height: 60px;
+    }
+    .social-media-icon{
+      display: inline-block;
+      margin: 10px;
+    }
+    .{
+      display: flex; gap: 1rem;
+    }
+    .{
+      flex: 1; overflow: hidden;
+      border-radius: 1rem;
+    }
+    img { width: 100%; transition: all .5s; }
+    img:hover{
+      transform: scale(0.5) rotate(3deg);
+    }
